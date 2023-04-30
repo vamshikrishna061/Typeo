@@ -36,7 +36,6 @@ buttonElement.addEventListener('click', () => {
     console.log(numResults, textResults);
 });
 
-
 const myPromise = new Promise<string>((resolve, reject)=>{
     setTimeout(()=>{
         resolve('It Worked')
